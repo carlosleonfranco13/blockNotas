@@ -1,0 +1,105 @@
+:root {
+  /*FONT-FAMILY*/
+  --font-1: "Josefin Sans", sans-serif;
+  --font-2: "Delicious Handrawn", cursive;
+
+  /*COLORS*/
+  --color-4: #fed049;
+  --color-5: #cffde1;
+  --color-6: #68b984;
+  --color-7: #3d5656;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#contenido {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #fed049, #cffde1, #68b984, #3d5656);
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+}
+
+.column {
+  width: 100%;
+  margin: auto;
+}
+
+.agg-notas {
+  width: 70%;
+  margin: auto;
+}
+
+.agg-notas label {
+  font-size: 3rem;
+  text-align: center;
+  font-family: var(--font-1);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4px;
+  color: var(--color-7);
+}
+.agg-notas #formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#formulario textarea {
+  margin: auto;
+  width: 100%;
+  max-width: 900px;
+  height: 100px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  outline: none;
+  padding: 8px;
+  font-size: 1.6rem;
+  border: none;
+  background-color: var(--color-6);
+  color: var(--color-7);
+  font-family: var(--font-1);
+  letter-spacing: 1px;
+}
+
+.button{
+    margin: auto;
+    width: 100px;
+    padding: 8px;
+    background-color: var(--color-7);
+    border: none;
+    color: var(--color-4);
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-family: var(--font-1);
+    transition: all .3s;
+    box-shadow: 0 0 8px 2px var(--color-6);
+}
+.button:hover{
+    background-color: var(--color-6);
+    color: var(--color-7);
+    box-shadow: 0 0 0px 0px var(--color-7);
+    scale: 1.1;
+}
+
+.notes{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--font-2);
+    color: var(--color-7);
+}
