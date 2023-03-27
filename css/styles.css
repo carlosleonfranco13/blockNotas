@@ -31,7 +31,6 @@ html {
 
 .container {
   width: 100%;
-  height: 90%;
 }
 
 .column {
@@ -67,7 +66,7 @@ html {
   border-radius: 6px;
   outline: none;
   padding: 8px;
-  font-size: 1.6rem;
+  font-size: 2rem;
   border: none;
   background-color: var(--color-6);
   color: var(--color-7);
@@ -77,8 +76,8 @@ html {
 
 .button{
     margin: auto;
-    width: 100px;
-    padding: 8px;
+    width: 100%;
+    padding: 10px;
     background-color: var(--color-7);
     border: none;
     color: var(--color-4);
@@ -93,7 +92,7 @@ html {
     background-color: var(--color-6);
     color: var(--color-7);
     box-shadow: 0 0 0px 0px var(--color-7);
-    scale: 1.1;
+    scale: 1.02;
 }
 
 .notes{
@@ -102,4 +101,31 @@ html {
     font-size: 3rem;
     font-family: var(--font-2);
     color: var(--color-7);
+}
+
+.error{
+  background-color: rgb(255, 157, 157);
+  padding: 16px;
+  color: var(--color-7);
+  font-size: 2rem;
+  font-family: var(--font-1);
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 32px;
+  text-align: center;
+  margin: 32px 16px 0 16px;
+}
+
+#list-notes{
+  max-width: 500px;
+  margin: auto;
+}
+li{
+  width: 100%;
+  margin: 0 24px 0 24px;
+  color: var(--color-7);
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  text-align: start;
+  list-style: circle;
 }
