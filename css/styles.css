@@ -122,10 +122,20 @@ html {
 }
 li{
   width: 100%;
-  margin: 0 24px 0 24px;
+  margin: 0 24px 4px 24px;
   color: var(--color-7);
   font-size: 1.6rem;
   letter-spacing: 1px;
   text-align: start;
   list-style: circle;
+}
+
+.borrar-nota{
+  float: right;
+  background-color: rgb(255, 157, 157);
+  border-radius: 50%;
+  color: var(--color-7);
+  cursor: pointer;
+  padding: 3px;
+  font-size: 1rem;
 }
